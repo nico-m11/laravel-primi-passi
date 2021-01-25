@@ -21,3 +21,5 @@ Route::get('/', function () {
 Route::get('/chisono', function () {
     return view('chisono');
 });
+
+Route::get('/dischi', 'DischiController@index');

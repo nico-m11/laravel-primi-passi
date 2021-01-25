@@ -6,6 +6,7 @@
         <li><a class="links" href="http://localhost:8000/">HomePage <i class="fa fa-home" aria-hidden="true"></i>
 </a></li>
         <li><a class="links" href='http://localhost:8000/chisono'>Chi Sono <i class="fa fa-hand-o-left" aria-hidden="true"></i></a></li>
+        <li><a class="links" href='http://localhost:8000/dischi'>Vedi i Dischi <i class="fa fa-hand-o-left" aria-hidden="true"></i></a></li>
       </ul>
     </div>
    </div>
