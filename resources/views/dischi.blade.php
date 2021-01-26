@@ -19,7 +19,7 @@
           <img id="logo" src="img/CL-music-logo-png.png" alt="">
         </div>
         <div class="col-xs-6 home">
-          <button><a href="http://localhost:8000/">HOME</a></button>
+          <button><a href="/">HOME</a></button>
         </div>
       </div>
     </header>
@@ -27,10 +27,10 @@
 @foreach ($data as $key )
     <div class="col-xs-12 d-flex container">
       <div class="card" style="width: 22rem;">
-        <img class="card-img-top" src="{{ $key->poster }}" alt="Card image cap">
+        <img class="card-img-top" src="{{$key['poster']}}" alt="Card image cap">
         <div class="card-body">
-          <h5>{{ $key->title }}</h5>
-          <p class="card-text">{{ $key->author}} <br> {{ $key->year }} <br> {{ $key->genre }}</p>
+          <h5>{{$key['title']}}</h5>
+          <p class="card-text">{{$key['author']}} <br> {{$key['year']}} <br> {{$key['genre']}}</p>
         </div>
       </div>
     </div>
